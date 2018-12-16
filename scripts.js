@@ -5,7 +5,7 @@ const app = document.getElementById('root');
 const header = document.getElementById('thought');
 const foot = document.getElementById('author');
 
-request.open('GET', 'https://www.reddit.com/r/Showerthoughts/top.json', true);
+request.open('GET', 'https://www.reddit.com/r/Showerthoughts/new.json', true);
 request.onload = function () {
     var data = JSON.parse(this.response);
     if (request.status >= 200 && request.status < 400) {
