@@ -24,6 +24,7 @@ function sleep (time) {
 
 function printThoughts(index, thoughts){
     if (index >= thoughts.length) {
+        location.reload();
         return
     }
     console.log(thoughts[index]['data'].title);
