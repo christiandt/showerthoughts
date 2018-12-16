@@ -4,12 +4,13 @@ body {
 
 
 .root {
-    font-size: 3em;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",    Helvetica, Arial, "Lucida Grande", sans-serif;
-    color: white;
     height: 100%;
+    padding-top: 250px;
 }
 
 #thought {
-    margin: 30px;
+    margin: 50px;
+    font-size: 3em;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",    Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
 }
