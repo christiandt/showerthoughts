@@ -1,0 +1,25 @@
+body {
+    background-color: #1c1e2c;
+}
+
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 3em;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",    Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: white;
+}
+
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
+}
